@@ -1,0 +1,39 @@
+
+.detailed-grid .name { grid-column: 1 / span 2;
+    grid-row: 1;
+    font-weight: bolder;    
+ }
+ .detailed-grid .info {  
+  overflow-wrap: break-word;   
+}
+
+
+.detailed-grid{
+    display: grid;
+    grid-template-columns: 40% 60%;    
+    row-gap: 1rem;      
+    width: 30rem ;
+    font-size: 1.5rem;  
+    margin-bottom: 2rem;  
+}
+
+.detailed-grid .name {
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+
+.detailed-grid .infoTitle,
+.detailed-grid .infoTitleMore
+{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.detailed-grid .infoTitleMore,
+.detailed-grid .infoMore
+{
+    grid-column: 1 / span 2;
+    font-size: 1rem;
+    
+}

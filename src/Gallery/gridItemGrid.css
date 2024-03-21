@@ -1,0 +1,29 @@
+.name { grid-column: 1 / span 2;
+    grid-row: 1;
+    font-weight: bolder;    
+ }
+.info {  
+  overflow-wrap: break-word;   
+}
+
+.info, .icon {  
+    font-size: 1rem;  
+  }
+
+.grid-item {
+    display: grid;
+    grid-template-columns: 10% 90%;    
+    
+    row-gap: 1rem;    
+    font-size: 1.5rem; 
+    padding: 1.5rem; 
+  }
+  
+  .grid-item-container {
+    -webkit-box-shadow: 0 0 5px 2px  rgb(233, 231, 231);
+    -moz-box-shadow: 0 0 5px 2px  rgb(233, 231, 231);
+    box-shadow: 0 0 5px 2px  rgb(233, 231, 231);
+    border-radius: 1.5rem;
+    min-height: 14rem;
+    cursor: pointer;
+  }
